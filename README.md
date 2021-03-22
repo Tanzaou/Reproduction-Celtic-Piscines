@@ -1,2 +1,2 @@
 # Reproduction-Celtic-Piscines
-Projet de reproduction d'une maquette jpg en site vitrine responsive HTML/CSS uniquement.
+Reproduction d'un site vitrine pour un piscinier, utilisant la mise en page Bootstrap, HTML/CSS, AOS.
