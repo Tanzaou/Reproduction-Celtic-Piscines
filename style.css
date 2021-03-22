@@ -1,0 +1,605 @@
+.row {
+  width: 100%;
+  padding: 0;
+  margin: 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+body {
+  min-height: 200vh;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  height: 75px;
+  font-family: Montserrat;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  overflow: hidden;
+  transition: 0.6s;
+  position: fixed;
+  width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #202329;
+}
+
+.navb {
+  background: none;
+  border: none;
+  font-family: Montserrat;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navb:hover {
+  color: grey;
+  font-size: 1.5em;
+  transition-duration: 0.4s;
+}
+
+.header {
+  background-size: 100%;
+  height: 100%;
+  z-index: 0;
+  padding: 0 !important;
+  margin: 0;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.video-container {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: block;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: transparent;
+}
+
+.filtre {
+  display: block;
+  position: absolute;
+  background-color: black;
+  opacity: 0.1;
+  width: 100%;
+}
+
+.logo {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px !important;
+  letter-spacing: 4px;
+  font-size: 3em !important;
+  font-weight: 500 !important;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  color: #35cece;
+  font-size: 5em !important;
+  text-align: left;
+  width: 100%;
+  letter-spacing: 2px;
+  background-color: transparent;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  color: #266e8f;
+  font-size: 5em !important;
+  text-align: left;
+  width: 100%;
+  letter-spacing: 2px;
+  background-color: transparent;
+  padding: 100px;
+}
+
+h4 {
+  font-family: Montserrat, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 3em !important;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 2px;
+  background-color: transparent;
+}
+
+hr {
+  background-color: black !important;
+  color: black !important;
+  opacity: 100% !important;
+  width: 10%;
+  height: 3px !important;
+  margin-right: 0 !important;
+  border: 100px;
+  display: inline-flex;
+}
+
+.hrservices {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
+  opacity: 100% !important;
+  width: 7%;
+  height: 3px !important;
+  margin-right: auto;
+  margin-left: auto;
+  border: 100px;
+  display: inline-flex;
+}
+
+p {
+  letter-spacing: 0.05em !important;
+  line-height: 1.8;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+}
+
+.headbuttons {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  height: 75px;
+  font-family: Montserrat;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.vagues {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.headb {
+  background: none;
+  border: none;
+  font-family: Montserrat;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-top: solid 2px white;
+  border-right: solid 2px white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.headb:hover {
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+  border-top: none;
+  border-right: none;
+  transition-delay: 0.1s;
+  transition-duration: 0.1s;
+}
+
+.deux {
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603d0e3d1b7fb_images_large.png);
+  background-size: cover;
+  overflow-x: hidden !important;
+}
+.divdevis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: transparent;
+}
+.devis {
+  background-image: linear-gradient(
+    to right,
+    #a3dadc 0%,
+    #3dcfcf 51%,
+    #a3dadc 100%
+  );
+  transition: background-image 0.6s;
+  color: white;
+  border: none;
+  font-family: Montserrat;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: auto;
+  padding: 15px 45px;
+  margin: 10px;
+  background-size: 200% auto;
+}
+
+[data-aos][data-aos][data-aos-duration="400"],
+body[data-aos-duration="400"] [data-aos] {
+  transition-duration: 0.6s;
+}
+
+.devis:hover {
+  background-image: linear-gradient(
+    to left,
+    #a3dadc 0%,
+    #3dcfcf 100%,
+    #a3dadc 100%
+  );
+  background-size: 200% auto;
+}
+.description {
+  background-color: transparent;
+  padding: 4em !important;
+}
+
+.pisdesc {
+  background-color: rgb(255, 255, 255);
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603d0592d5a2f_images_large.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.trois {
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603d0b57286ac_images_large.jpeg);
+  background-size: cover;
+}
+
+.quatre {
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603df41f95572_images_large.png);
+  background-size: cover;
+}
+.opacity-banner {
+  opacity: 0.5;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.service {
+  background-color: transparent;
+  height: auto;
+}
+
+.fpp {
+  background-color: transparent;
+  text-align: center;
+  padding: 100px;
+  align-self: center;
+}
+
+.pisentr {
+  background-color: rgb(255, 255, 255);
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603d0b53f09cf_images_large.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.entretien {
+  background-color: transparent;
+  padding: 4em !important;
+}
+
+.blocimgservices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  text-align: center;
+}
+
+.imgservices {
+  height: 300px;
+  width: 375px;
+  background-size: cover;
+  margin: 30px;
+}
+
+.services {
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603df99d858e8_images_large.jpeg);
+  background-size: cover;
+  text-align: center;
+  padding: 50px;
+}
+
+.infos {
+  background-color: transparent;
+}
+
+.grandsix {
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603d0e3d1b7fb_images_large.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.six {
+  padding: 30px;
+  background-color: transparent;
+}
+
+.six strong {
+  font-size: 1.6em;
+}
+
+.six p {
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.icadresse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ictel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bi-geo-alt-fill {
+  fill: #3dcfcf;
+  background-color: transparent;
+  justify-self: center;
+  vertical-align: middle;
+}
+.bi-telephone-fill {
+  fill: #3dcfcf;
+  background-color: transparent;
+}
+
+.bi-envelope-open-fill {
+  fill: #3dcfcf;
+  background-color: transparent;
+}
+
+.map {
+  background-color: transparent;
+}
+
+.map-content p {
+  margin: 0;
+  height: 100%;
+}
+
+.contact {
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603dfb31e6031_images_large.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 3em !important;
+  margin-top: 50px;
+}
+
+.contact hr {
+  background-color: black !important;
+  color: black !important;
+  opacity: 100% !important;
+  width: 10%;
+  height: 3px !important;
+  text-align: center;
+  border: 100px;
+}
+
+.form-content div {
+  padding: 3px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-content {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.form-content button {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #a3dadc 0%,
+    #3dcfcf 51%,
+    #a3dadc 100%
+  );
+  color: #ffff;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 10px;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  background-size: 200% auto;
+}
+
+.form-content button::hover {
+  color: white !important;
+}
+
+.recaptcha-text {
+  text-align: center;
+}
+
+.legal-form {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left !important;
+  letter-spacing: 0.02em !important;
+  font-size: 0.7em;
+  line-height: 1.8;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  color: #fffefe;
+}
+
+.recherches {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.scrollTop {
+  z-index: 10000;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 5%;
+  bottom: 10%;
+  height: 50px;
+  width: 50px !important;
+  color: #fff;
+  background-color: #addbdd;
+  text-decoration: none;
+}
+
+.scrollTop:hover {
+  opacity: 0.8;
+  transition: 0.6s;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+.recaptcha-text a {
+  color: blue;
+}
+
+.form-check {
+  position: relative;
+  left: 20px;
+}
+
+.cases {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 375px;
+  margin: 30px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 375px;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 600;
+  margin-right: 0 !important;
+  font-size: 1.5em !important;
+}
+
+.whitesquare {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(128, 221, 233, 0.6);
+  transition: 0.6s;
+}
+
+.whitesquare:hover {
+  opacity: 0;
+  transform: translateY(-40px);
+}
+
+.cases:hover {
+  transition: 0.6s;
+}
+
+.case1 {
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603e0d1954330_images_medium.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.case2 {
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603e0d1190b1a_images_medium.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.case3 {
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603e0d1644534_images_medium.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.case4 {
+  background-image: url(https://celticpiscines.site-vistalid.fr/uploads/media/images/cms/medias/thumb_/cms/medias/603e0d0ec0bb3_images_medium.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
